@@ -74,7 +74,7 @@ const Backdrop: React.FC<React.PropsWithChildren<BackdropProps>> = React.memo(
               right: 0;
               bottom: 0;
               overflow: auto;
-              z-index: 1000;
+              z-index: 999;
               -webkit-overflow-scrolling: touch;
               box-sizing: border-box;
               text-align: center;
